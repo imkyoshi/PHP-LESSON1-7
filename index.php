@@ -138,9 +138,9 @@ if (isset($_POST["btnRegister"])) {
             <tr>
                 <td>
                     <select name="gender">
-                        <option value="">Select Gender</option>
-                        <option value="Male" <?php if ($gender == "Male") { echo "selected"; } ?>>Male</option>
-                        <option value="Female" <?php if ($gender == "Female") { echo "selected"; } ?>>Female</option>
+                        <option name="gender" value="">Select Gender</option>
+                        <option name="gender" value="Male" <?php if ($gender == "Male") { echo "selected"; } ?>>Male</option>
+                        <option name="gender" value="Female" <?php if ($gender == "Female") { echo "selected"; } ?>>Female</option>
                     </select>
                 </td>
             </tr>
