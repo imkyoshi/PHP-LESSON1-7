@@ -10,7 +10,7 @@
 
             <td width="10%"><b>Gender</td>
 
-            <td width="16%"><b>Contract</td>
+            <td width="16%"><b>Contact</td>
             <td width="16%"><b>Email</td>
             <td width="16%"><b>Password</td>
             <td width="16%"><center><b>Action</td>
