@@ -139,7 +139,7 @@ if (isset($_POST["btnRegister"])) {
                 <td>
                     <select name="gender">
                         <option name="gender" value="">Select Gender</option>
-                        <option name="gender" value="Male" <?php if ($gender == "Male") { echo "selected"; } ?>>Male</option>
+                        <option name="gender" value="M1ale" <?php if ($gender == "Male") { echo "selected"; } ?>>Male</option>
                         <option name="gender" value="Female" <?php if ($gender == "Female") { echo "selected"; } ?>>Female</option>
                     </select>
                 </td>
